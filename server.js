@@ -27,4 +27,4 @@ app.post("/api/companies", (req, res) => {
   res.json({ success: true, company });
 });
 
-app.listen(PORT, () => console.log(`Reward App running on port ${PORT}`));
+app.liste
