@@ -25,6 +25,6 @@ app.post("/api/companies", (req, res) => {
   };
   companies.push(company);
   res.json({ success: true, company });
+});app.listen(PORT, "0.0.0.0", () => {
+  console.log(`Server running on port ${PORT}`);
 });
-
-app.liste
